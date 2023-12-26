@@ -4,7 +4,7 @@ function fibonacci(num) {
  let num2= 1;
 	let next;
 	
-	for(let i =0; i<num.length; i++){
+	for(let i =0; i<num; i++){
          next = num1 + num2;
 		 num2=num1;
 		 next = num2;
