@@ -1,10 +1,17 @@
 function fibonacci(num) {
 // your code here
- let n = num.length;
+ let num1= 0;
+ let num2= 1;
+	let next;
+	for(let i =0; i<num.length; i++){
+         next = num1 + num2;
+		 num2=num1;
+		 next = num2;
 	
-	for(let i = 0; i < n; i++ + (i*1) - (i-2)){
-             console.log(num[i]);
 	}
+	console.log(next[i]);
+fibonacci();
+
 
 }
 fibonacci();
