@@ -3,13 +3,18 @@ function fibonacci(num) {
  let num1= 0;
  let num2= 1;
 	let next;
+	
 	for(let i =0; i<num.length; i++){
          next = num1 + num2;
 		 num2=num1;
 		 next = num2;
+		if (next[i] == num ){
+	          console.log(next[i]);
+		}
+
 	
 	}
-	console.log(next[i]);
+	
 fibonacci();
 
 
